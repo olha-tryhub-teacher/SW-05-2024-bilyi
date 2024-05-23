@@ -5,7 +5,7 @@ head{
 body {
     font-family: sans-serif;
     background-color: #FFE922;
-    width: 100%;
+    padding: 0;
 }
 
 
@@ -32,16 +32,10 @@ body {
 .logo{
     position: relative;
     top:-50px;
-    /* right: 25px; */
-    /* width: 185px; */
     height: 185px;
-    /* z-index: 1; */
-    /* display: flex; */
 }
 
 main{
-    /* position: absolute;
-    top: 274px; */
     margin-top: 274px;
 }
 
@@ -52,11 +46,6 @@ main{
     align-items: center;
 }
 
-.pizza-text{
-    /* position: relative;
-    left: 108px; */
-}
-
 .h22{
     font-size: 40px;
     text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
@@ -65,9 +54,6 @@ main{
 .textus{
     font-size: 20px;
     text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
-    
-    /* position: relative;
-    top: 38px; */
 }
 
 .pizzapicture{
@@ -75,19 +61,6 @@ main{
     height: auto;
     box-shadow: 6px 6px 5px rgb(0, 0, 0, 0.5);
     margin: 20px;
-    
-    /* position: absolute;
-    top: 68px;
-    left: 771px;
-    right: 108px; */
-}
-
-.buttons1{
-    /* position: absolute;
-    top: 389px;
-    left: 137px;
-    display: flex;
-    gap: 60px; */
 }
 
 .decoration{
@@ -107,12 +80,14 @@ main{
 }
 
 .menu{
+    margin-top: 100px;
     text-align: center;
     font-size: 38px;
     text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
 }
 
 .menu-item{
+    margin-top: 90px;
     display: flex;
     position: relative;
     left: 137px;
@@ -130,21 +105,6 @@ main{
     height: 250px;
     width: 250px;
     box-shadow: 1px 1px 5px;
-}
-
-pizza1{
-    position: relative;
-    top: 86px;
-}
-
-.pizza2{
-    position: relative;
-    top: 137px;
-}
-
-.pizza3{
-    position: relative;
-    top: 274px;
 }
 
 .decoration:hover{
@@ -171,4 +131,19 @@ pizza1{
     text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
     position: relative;
     top: 250px;
+}
+
+footer{
+    background-color: #E69A13;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+footer div img{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
 }
