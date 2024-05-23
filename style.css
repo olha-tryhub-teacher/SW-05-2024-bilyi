@@ -1,0 +1,174 @@
+head{
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #FFE922;
+    width: 100%;
+}
+
+
+.navigation{
+    position: absolute;
+    top: 70px;
+    height: 100px;
+    width: 100%;
+    background-color: #E69A13;
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0;
+}
+
+.nav-link, .news-link{
+    margin: auto 0;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.logo{
+    position: relative;
+    top:-50px;
+    /* right: 25px; */
+    /* width: 185px; */
+    height: 185px;
+    /* z-index: 1; */
+    /* display: flex; */
+}
+
+main{
+    /* position: absolute;
+    top: 274px; */
+    margin-top: 274px;
+}
+
+.main-pizza{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pizza-text{
+    /* position: relative;
+    left: 108px; */
+}
+
+.h22{
+    font-size: 40px;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
+}
+
+.textus{
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
+    
+    /* position: relative;
+    top: 38px; */
+}
+
+.pizzapicture{
+    width: 40%;
+    height: auto;
+    box-shadow: 6px 6px 5px rgb(0, 0, 0, 0.5);
+    margin: 20px;
+    
+    /* position: absolute;
+    top: 68px;
+    left: 771px;
+    right: 108px; */
+}
+
+.buttons1{
+    /* position: absolute;
+    top: 389px;
+    left: 137px;
+    display: flex;
+    gap: 60px; */
+}
+
+.decoration{
+    color: black;
+    border: solid 5px #D8BF25;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+    background-color: #F3D833;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+    max-width: 150px;
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 6px 6px 5px rgb(0, 0, 0, 0.5);
+}
+
+.menu{
+    text-align: center;
+    font-size: 38px;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
+}
+
+.menu-item{
+    display: flex;
+    position: relative;
+    left: 137px;
+}
+
+.menu-text{
+    padding: 13px;
+    max-width: 450px;
+    font-size: 26px;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
+}
+
+.menu-img{
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    box-shadow: 1px 1px 5px;
+}
+
+pizza1{
+    position: relative;
+    top: 86px;
+}
+
+.pizza2{
+    position: relative;
+    top: 137px;
+}
+
+.pizza3{
+    position: relative;
+    top: 274px;
+}
+
+.decoration:hover{
+    color: black;
+    border: solid 5px #E69A13;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+    background-color: #F3D833;
+    font-size: 25px;
+    padding: 10px;
+    width: 40%;
+    max-width: 150px;
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 6px 6px 5px rgb(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+
+.about-us{
+    text-align: center;
+    font-size: 38px;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.5);
+    position: relative;
+    top: 250px;
+}
