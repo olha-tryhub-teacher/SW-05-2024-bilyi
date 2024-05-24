@@ -1,13 +1,8 @@
-head{
-
-}
-
 body {
     font-family: sans-serif;
     background-color: #FFE922;
     padding: 0;
 }
-
 
 .navigation{
     position: absolute;
@@ -128,8 +123,6 @@ main{
     box-shadow: 6px 6px 5px rgb(0, 0, 0, 0.5);
     transition: 0.5s;
 }
-
-
 .about-us{
     text-align: center;
     font-size: 38px;
@@ -151,4 +144,9 @@ footer div img{
     height: 70px;
     width: 70px;
     border-radius: 20px;
+}
+
+.nav-link:hover{
+    font-weight:700;
+    color: white;
 }
