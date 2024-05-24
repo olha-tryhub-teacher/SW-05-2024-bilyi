@@ -150,3 +150,8 @@ footer div img{
     font-weight:700;
     color: white;
 }
+
+iframe{
+    display:block;
+    margin: auto;
+}
